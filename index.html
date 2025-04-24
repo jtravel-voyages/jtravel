@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jtravel - Assistance Visa & Voyage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#0f172a',
+              accent: '#facc15',
+              text: '#1e293b',
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body class="bg-white text-text">
+    <!-- Hero Section -->
+    <header class="relative bg-primary text-white h-[90vh] flex flex-col justify-center items-center text-center p-4">
+      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center opacity-30"></div>
+      
+      <img src="3.png" alt="Logo Jtravel" class="w-20 h-20 mb-4 z-10">
+      <h1 class="text-5xl font-bold z-10">Jtravel</h1>
+      <p class="text-xl mt-4 z-10">Voyagez sereinement, on s’occupe de tout !</p>
+      <a href="#contact" class="mt-6 px-6 py-3 bg-accent text-black font-semibold rounded-full z-10 hover:bg-yellow-400 transition">Contactez-nous</a>
+    </header>
+    
+
+    <!-- Services -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12">Nos Services</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
+          <i class="fas fa-passport text-3xl text-primary mb-4"></i>
+          <h3 class="font-semibold text-xl mb-2">Assistance Visa</h3>
+          <p>Dossiers pour France, Belgique, Canada, USA, Chine, Angleterre, et autres pays.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
+          <i class="fas fa-file-alt text-3xl text-primary mb-4"></i>
+          <h3 class="font-semibold text-xl mb-2">Documents & RDV</h3>
+          <p>Constitution de dossier, prise de rendez-vous.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
+          <i class="fas fa-plane text-3xl text-primary mb-4"></i>
+          <h3 class="font-semibold text-xl mb-2">Réservations</h3>
+          <p>Billet d’avion, hôtel et assurance voyage.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
+          <i class="fas fa-user-graduate text-3xl text-primary mb-4"></i>
+          <h3 class="font-semibold text-xl mb-2">Étudiants</h3>
+          <p>Assistance pré-inscription et demande de visa pour le Canada.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
+          <i class="fas fa-comments text-3xl text-primary mb-4"></i>
+          <h3 class="font-semibold text-xl mb-2">Conseils personnalisés</h3>
+          <p>Suivi, accompagnement, assistance rapide.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="py-16 px-6 bg-gray-100">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">À propos de Jtravel</h2>
+        <p class="text-lg mb-4">Jtravel est une agence spécialisée dans l'accompagnement des démarches de visa et de voyage. Notre mission est de vous offrir un service personnalisé, rapide et professionnel pour vous simplifier la vie.</p>
+        <p class="text-md font-semibold">Souleymane Dieng. – Fondateur de Jtravel</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 px-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Contact</h2>
+      <div class="text-center">
+        <p class="mb-2">📞 WhatsApp : <a href="https://wa.me/221775108056" class="text-primary underline">+221 77 510 80 56</a></p>
+        <p class="mb-2">📧 Email : <a href="mailto:assistance.jtravel@gmail.com" class="text-primary underline">jtravel90210@gmail.com</a></p>
+        <div class="flex justify-center mt-4 space-x-6 text-xl">
+          <a href="https://www.tiktok.com/@jtravel_voyages?is_from_webapp=1&sender_device=pc" class="text-primary hover:text-accent"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="text-primary hover:text-accent"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/221775108056" class="text-primary hover:text-accent"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center p-4">
+      © 2025 Jtravel – Tous droits réservés
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/221775108056" class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg text-2xl z-50">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </body>
+</html>
